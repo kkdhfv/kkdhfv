@@ -47,7 +47,7 @@ export default defineConfig({
         /**
          * optional
          **/
-        short_name: "鼠鼠哭了",
+        short_name: "鼠鼠日记",
         description: siteConfig.description,
         lang: siteConfig.lang,
         icon: "public/icon.svg", // the source for generating favicon & icons
@@ -99,7 +99,7 @@ export default defineConfig({
         ],
         remarkRehype: {
             footnoteLabelProperties: {
-                className: ["https://8.884333.xyz"],
+                className: [""],
             },
       footnoteLabel: '脚注：',
         },
